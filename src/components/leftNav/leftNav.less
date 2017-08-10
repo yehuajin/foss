@@ -1,0 +1,50 @@
+.left-item-container{
+    float: left;
+    width: 182px;
+}
+.item-list-container{
+    height: 32px;
+    font: 12px/32px "Simsun", Tahoma, Geneva, sans-serif;
+    color: #333;
+    font-weight: bold;
+    border-bottom: solid 1px #ccc;
+    background: url('http://foss2.91wutong.com/foss/mgt/images/common/k_lt.gif') right center no-repeat #f6f6f6;
+    padding-left: 18px;
+}
+.list-container {
+    .list-title {
+        display: block;
+        border-bottom: solid 1px #ccc;
+        padding-left: 33px;
+        color: #333;
+        background: url('http://foss2.91wutong.com/foss/mgt/images/common/leftbg2.gif') left bottom;
+        height: 29px;
+        text-decoration: none;
+        line-height: 29px;
+    }
+    .list-item {
+        display: none;
+    }
+    &.list-active {
+        .list-title{
+            background-position: left top;
+        }
+        .item-active {
+            color: red;
+        }
+        .list-item {
+            display: block;
+        }
+    }
+}
+.list-item{
+    height: 30px;
+    font: 12px/30px "Simsun", Tahoma, Geneva, sans-serif;
+    display: block;
+    background: url('http://foss2.91wutong.com/foss/mgt/images/common/leftbg3.gif') left top no-repeat;
+    padding-left: 42px;
+    border-bottom: solid 1px #e5e5e5;
+    text-decoration: none;
+    color: #333;
+}
+

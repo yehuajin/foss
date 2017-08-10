@@ -1,0 +1,29 @@
+.navBar {
+    height: 35px;
+    padding-left: 15px;
+    background-color: #a20b0d;
+    li{
+        display: inline-block;
+        margin: 2px 5px 0;
+        padding: 0 7px;
+        height: 33px;
+        line-height: 30px;
+        list-style-type:none;
+        font-weight: bold;
+    }
+    li:hover{
+        background-color: white;
+        color: #ff0000;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        cursor: hand;
+    }
+    li{
+        &.link-active{
+            background-color: white;
+            color: #000000;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+    }
+}
